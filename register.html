@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo-box">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a> 
+        </div>
+        <h1>welcom to University of Hargeisa</h1>
+    </header>
+
+    <div  class="sections">
+    <section class="left">
+        <ul class="myList">
+            <li class="myItem"><a href="#" class="links">document </a></li>
+            <li class="myItem"><a href="#" class="links">pictures</a></li>
+            <li class="myItem"><a href="#" class="links">pdf</a></li>
+            <li class="myItem"><a href="#" class="links">lecture</a></li>
+            <li class="myItem"><a href="#" class="links">video</a></li>
+        </ul>
+    </section>
+
+    <main>
+        <nav>
+            <ul class="list">
+                <li class="list-item"><a href="index.html" class="nav-link">home</a></li>
+                <li class="list-item "><a href="about.html" class="nav-link">about</a></li>
+                <li class="list-item active"><a href="register.html" class="nav-link">register</a></li>
+                <li class="list-item"><a href="gallery.html" class="nav-link">gallery</a></li>
+                <li class="list-item"><a href="contact.html" class="nav-link">contact</a></li>
+           
+            </ul> 
+        </nav>
+
+        <section class="section-content">
+            <h1 class="heading-one">registration</h1>
+            
+            <div class="info">
+                <img src="img/img_avatar.png" alt="info" class="img">
+
+                <h3>please Enter your information and all fill all requiredment</h3>
+            </div>
+                <form action="/action_page.php">
+                    <label for="fname">Full name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <label for="dropdown">deperment:</label>
+                    <select name="deperment" id="dropdown" required>
+                        <option value="College">---- please selected a College -----</option>
+                        <option value="College">College of Medicine & Health Science</option>
+                        <option value="College">College of Agri & Veterinary Medicine</option>
+                        <option value="College">College of Applied & Natural Science</option>
+                        <option value="College">College of Business & Public Administration</option>
+                        <option value="College">College of Education</option>
+                        <option value="College">College of Computing & IT</option>
+                        <option value="College">College of Law</option>
+                        <option value="College">College of Social Science & Humanities</option>
+                    </select>
+                    <div class="radio"> 
+                    <label for="gender1">male:
+                        <input type="radio" id="gender1" name="gender" required>
+                    </label>
+                    <label for="gender2">famle:
+                        <input type="radio" id="gender2" class="radio-2" name="gender" required>
+                    </label>
+                    </div>
+
+                    <label for="term">Term:</label>
+                    <input type="checkbox" id="term" name="term" class="check-box" required>
+
+                    <input type="submit" value="Submit">
+                </form> 
+            
+        </section>
+    </main>
+
+    <section class="right">
+        <ul class="myList">
+            <li class="myItem"><a href="https://www.bbc.com/somali" class="links">bbc somali</a></li>
+            <li class="myItem"><a href="https://www.w3schools.com/" class="links">w3 school</a></li>
+            <li class="myItem"><a href="https://www.freecodecamp.org/" class="links">freecodecamp</a></li>
+            <li class="myItem"><a href="https://css-tricks.com/" class="links">css tricks</a></li>
+            <li class="myItem"><a href="https://www.codecademy.com/" class="links">codecademy</a></li>
+        </ul>
+    </section>
+    </div>
+    <footer>
+        all &copy; copy right has a university of Hargeisa
+    </footer>
+</body>
+</html>
